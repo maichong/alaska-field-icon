@@ -38,7 +38,7 @@ export default class IconFieldView extends React.Component {
       errorText
       } = this.props;
     let help = field.help;
-    let className = 'form-group';
+    let className = 'form-group icon-field';
     if (errorText) {
       className += ' has-error';
       help = errorText;
